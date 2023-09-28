@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* configurando a section */
+section{
+    display: block;
+    background-color: rgb(235, 235, 235);
+    width: 40vw;
+    height: 100vh;
+}
+/* controlando o texto de login */
+.login h1{
+    font-size: 40px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 200px;
+    padding-left: 27vh;
+    padding-bottom: 40px;
+    display: inline-block;
+}
+/* controlando os campos e botoes */
+.campo{
+    border-radius: 3px;
+    border-color: darkgray;
+    border-style: solid;
+    height: 45px;
+    width: 390px;
+    display: inline-block;
+}
+.emailSenha{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+.esqueceu{
+    padding-left: 24vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(48, 107, 255);
+    font-size: 17px;
+}
+.btnEntrar{
+    width: 390px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: rgb(48, 107, 255);
+    color: white;
+    display: inline-block;
+}
+.divisoria{
+    width: 390px;
+    position: absolute;
+    top: 78.5vh;
+    border-style: solid;
+    border-color: darkgrey;
+}
+.btnNaoTenhoConta{
+    width: 390px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 20px;
+    border-style: solid;
+    border-color: darkgray;
+    display: inline-block;
+}
+/* controlando as divs */
+div{
+    padding-left: 16vh;
+    padding-top: 4vh;
+    position: static;
+    display: inline-block;
+}
+/* controlando imagem lado direito */
+.imagemFundo{
+    width: 50w;
+    position: absolute;
+    top: 5vw;
+    left: 100vh;
+}
